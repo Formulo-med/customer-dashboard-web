@@ -1,0 +1,72 @@
+$success: #8C9B69;
+$warning: #FDD51E;
+$primary: #9cc6c9;
+$customLgBreakpoint: 1025px;
+$maxMdBreakpoint: 1024px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: $customLgBreakpoint, // changed this to a custom breakpoint 
+  xl: 1200px,
+  xxl: 1400px
+);
+
+:root{
+	--yellow-primary-color-variant:#{$warning};
+	--green-color-variant:#{$success};
+	--blue-color-variant:#{$primary};
+	--yellow-secondary-color-variant: #FFD37B;
+	--custom-md-breakpoint-max-width: #{$maxMdBreakpoint};
+	--custom-lg-breakpoint-min-width: #{$customLgBreakpoint};
+}
+
+body, .modal {
+  padding-right: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.modal-backdrop {
+  opacity: 1 !important;
+  background-color: rgba(0, 0, 0, .5) !important;
+  backdrop-filter: blur(12px);
+}
+
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size": (
+      property: font-size,
+      class: fs,
+      responsive: true,
+	    values: $font-sizes
+    ),
+    "width-rem": (
+      property: width,
+      class: wrem,
+      responsive: true,
+      values: $spacers
+    ),
+    "height-rem": (
+      property: height,
+      class: hrem,
+      responsive: true,
+      values: $spacers
+    ),
+  )
+);
+
+@import "bootstrap/scss/utilities/api";
+@import 'bootstrap/scss/bootstrap';
