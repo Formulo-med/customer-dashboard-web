@@ -1,21 +1,13 @@
-<!-- <template>
-      <div class="col-md-2 col-6 p-0 rounded-4 image-placeholder position-relative clickable">
-        <button v-if="image!==''" 
-            class="position-absolute top-0 start-100 translate-middle rounded-circle p-0 border-0"
-            @click="removeImage">
-            <font-awesome-icon :icon="['fas', 'circle-xmark']" size="xl"/>
-        </button>
-            <img  v-if="image!==''" :src="image" alt=" " class="image rounded-4 h-100 w-100 border"/>
-      </div>
-</template> -->
 <template>
-    <div class="col p-0 rounded-4 image-placeholder position-relative clickable">
-        <button v-if="image!==''" 
-            class="position-absolute top-0 start-100 translate-middle rounded-circle p-0 border-0"
-            @click="removeImage">
-            <font-awesome-icon :icon="['fas', 'circle-xmark']" size="xl"/>
-        </button>
-        <img  v-if="image!==''" :src="image" alt=" " class="image rounded-4 h-100 w-100 border"/>
+    <div class="col">
+        <div class="p-0 rounded-4 image-placeholder position-relative clickable m-0">
+            <button v-if="image!==''" 
+                class="position-absolute top-0 start-100 translate-middle rounded-circle p-0 border-0"
+                @click="removeImage">
+                <font-awesome-icon :icon="['fas', 'circle-xmark']" size="xl"/>
+            </button>
+            <img  v-if="image!==''" :src="image" alt=" " class="image rounded-4 h-100 w-100 border"/>
+        </div>
     </div>
 </template>
 

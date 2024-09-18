@@ -1,5 +1,5 @@
 <template>
-	<div class="col-12 col-sm-3 card mx-2 my-3 p-2 shadow text-start">
+	<div class="col-12 col-lg-3 col-md-4 card my-3 p-2 shadow text-start">
 		<!-- <picture class="img-height">
 				<source
 					media="(min-width:1025px)"

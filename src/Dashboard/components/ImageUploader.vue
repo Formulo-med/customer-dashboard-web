@@ -1,30 +1,14 @@
-<!-- <template>
-    <div class="container bg-white my-3 py-2 justify-content-center">
-        <div class="row justify-content-lg-around justify-content-start mx-2 column-gap-sm-4 column-gap-5 row-gap-3">
-            <div class="col-md-2 col-6 p-0 rounded-4 my-1 image-placeholder custom-height">
-                <div class="d-flex flex-column align-items-center justify-content-center h-100 w-100 clickable" @click="initiateImageUpload">
+<template>
+    <div class="container-sm bg-white p-0 justify-content-center mt-5 px-2">
+        <div class="row row-cols-2 row-cols-md-5 gx-3 row-gap-3 py-4 px-2">
+            <div class="col">
+                <div class="d-flex flex-column p-0 rounded-4 image-placeholder align-items-center justify-content-center clickable" @click="initiateImageUpload">
                     <font-awesome-icon :icon="['fas', 'upload']" size="xl"/>
                     <p class="fs-sm-4">Upload</p>
                     <input type="file" id="fileInput" class="d-none"  accept=".jpg, .jpeg, .heic, .png" ref="fileRef" @change="imageChangeHandler">
                 </div>
             </div>
-            <ImageHolder v-for="index in 4" 
-                :key="index-1" 
-                :image="getImage(index-1)" 
-                :image-index="index-1" 
-                @remove-image="removeImageHandler"
-            />
-        </div>
-    </div>
-</template> -->
-<template>
-    <div class="container-sm bg-white p-0 justify-content-center">
-        <div class="row row-cols-3 row-cols-md-6 mx-sm-2 justify-content-between g-2">
-            <div class="col d-flex flex-column p-0 rounded-4 image-placeholder align-items-center justify-content-center clickable" @click="initiateImageUpload">
-                    <font-awesome-icon :icon="['fas', 'upload']" size="xl"/>
-                    <p class="fs-sm-4">Upload</p>
-                    <input type="file" id="fileInput" class="d-none"  accept=".jpg, .jpeg, .heic, .png" ref="fileRef" @change="imageChangeHandler">
-                </div>
+
             <ImageHolder v-for="index in 4" 
                 :key="index-1" 
                 :image="getImage(index-1)" 

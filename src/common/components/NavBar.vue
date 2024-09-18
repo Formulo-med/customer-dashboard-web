@@ -16,7 +16,8 @@
 						name="user"
 					/>
 				</router-link>
-				<router-link :to="{ path: '/cart' }">
+				
+				<router-link :to="{ path: '/' }">
 					<IconSection
 						name="s-bag"
 						class="d-lg-none"
@@ -66,7 +67,7 @@
 									>Home</a>
 								</li>
 							</router-link>
-							<router-link to="/products">
+							<router-link to="/">
 								<li class="mx-2 mx-lg-0 ">
 									<a
 										class="nav-link active fs-lg-6 fs-4"
@@ -75,29 +76,32 @@
 									>Products</a>
 								</li>
 							</router-link>
-							<router-link to="/whyformulo">
+							<router-link to="/">
 								<li class="nav-item mx-2 mx-lg-0">
 									<a
 										class="nav-link active fs-lg-6 fs-4"
 										href="#"
-									>Why Formulo</a>
+									>Dashboard</a>
 								</li>
 							</router-link>
-							<li class="nav-item mx-2 mx-lg-0">
-								<router-link :to="{ path: '/authentication', query: { tab: 'Sign In' } }">
+							<router-link to="/">
+								<li class="nav-item mx-2 mx-lg-0">
 									<a
-										class="nav-link active d-lg-block d-none fs-lg-6 fs-4"
-										aria-disabled="true"
-									>Log In</a>
-								</router-link>
-								<router-link :to="{ path: '/authentication', query: { tab: 'Sign In' } }">
-									<button
-										class=" btn btn-block btn-warning bold rounded-4 px-3 d-lg-none col-sm-5 col-12 fs-4"
-									>
-										Log In
-									</button>
-								</router-link>
-							</li>
+										class="nav-link active fs-lg-6 fs-4"
+										href="#"
+									>History</a>
+								</li>
+							</router-link>
+
+							<router-link to="/">
+								<li class="nav-item mx-2 mx-lg-0">
+									<a
+										class="nav-link active fs-lg-6 fs-4"
+										href="#"
+									>Log Out</a>
+								</li>
+							</router-link>
+							
 							<li class="nav-item mx-2 mx-lg-0">
 								<router-link :to="{ path: '/authentication', query: { tab: 'Sign Up' } }">
 									<button
@@ -127,15 +131,15 @@
 			<div class="container-sm w-100">
 				<div class="col-4">
 					<div class="p-2 navbar-brand">
-						<Logo :size="'h3'" />
+						<Logo :size="'h4'" />
 					</div>
 				</div>
 				<div class="col text-end">
 					<router-link :to="{ path: '/authentication', query: { tab: 'Sign Up' } }">
 						<button
-							class="btn btn-warning text-black rounded-4 p-2 px-sm-4 bold"
+							class="btn btn-warning text-black rounded-4 p-2 px-sm-4 bold fs-6"
 						>
-							Get Started
+							Get Consultation
 						</button>
 					</router-link>
 					<div class="d-md-inline d-none m-2">
