@@ -27,6 +27,7 @@
 
 <script>
 import ImageUploader from '@/Dashboard/components/ImageUploader.vue';
+import ImageUploaderService  from '@/Dashboard/service/ImageUploaderService';
 export default{
     name:"AssessmentComponent",
     components:{
@@ -44,8 +45,18 @@ export default{
         removeImageHandler(index){
             this.images.splice(index, 1)
         },
-        saveImages(){
-            console.log(this.images)
+        saveImages(){            
+            const formData = new FormData()
+            
+            this.images.forEach((image)=>{
+                formData.append('images', image)
+            })
+           
+            ImageUploaderService.uploadImages(formData).then(
+                response=>console.log(response)
+            ).catch(err=>{
+                err.message ="Image upload failed."
+            })
         }
     }
 }
