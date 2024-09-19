@@ -3,7 +3,7 @@
         <h4 class="text-center my-3">What to Expect from Your Personalized Skincare Routine</h4>
         
         <div class="row text-center justify-content-center px-2 gap-3">
-            <ProductCard v-for="product in products" :key="product.product_id" :product="product"></ProductCard>
+            <ProductCard v-for="product in products" :key="product.productId" :product="product"></ProductCard>
         </div>
     </div>
 </template>

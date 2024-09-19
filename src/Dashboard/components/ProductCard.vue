@@ -1,47 +1,19 @@
 <template>
 	<div class="col-12 col-lg-3 col-md-4 card my-3 p-2 shadow text-start">
-		<!-- <picture class="img-height">
-				<source
-					media="(min-width:1025px)"
-					:src="product.product_images_3[0]" 
-				>
-				<img 
-					class="img-fluid card-img-top object-fit-cover" 
-					:alt="product.product_name"
-					:src="product.product_images_1[0]" 
-					loading="lazy"
-				>
-		</picture>
-		
-		<div class="pt-3 pb-1 px-1 text-start">
-			<h6>{{ product.product_name }} </h6>
-			<h6 class="my-2"> Rs. {{ product.product_discounted_price }}</h6>
-			<p class="my-0">{{ product.product_actives }}</p>
-		</div>
-		
-		<div class="card-footer d-flex justify-content-end my-2 bg-light">
-			<button
-				class="btn btn-warning d-flex align-items-center rounded-4"
-				@click="addToCart"
-			>
-				<IconSection name="s-bag" /> 
-				<span class="px-1 fw-bold">Add to Cart</span>
-			</button>
-		</div> -->
 		<div
 			class="card-img-top"
 			@click="showProduct"
 		>
 			<picture>
 				<source
-					v-if="product.product_images_3 && product.product_images_3.length > 0"
+					v-if="product.productImages && product.productImages.length > 0"
 					media="(min-width:1025px)"
-					:srcset="product.product_images_3[0]" 
+					:srcset="`/images/${product.productImages[0]}-2.png`"
 				>
 				<img 
 					class="card-img-top" 
-					:alt="product.product_name"
-					:src="(product.product_images_1 && product.product_images_1.length > 0) ? product.product_images_1[0] : ''" 
+					:alt="product.productName"
+					:src="(product.productImages && product.productImages.length > 0) ? `/images/${product.productImages[0]}-1.png`: ''" 
 					loading="lazy"
 				>
 			</picture>
@@ -54,13 +26,13 @@
 					class="card-title title-height"
 					@click="showProduct"
 				>
-					{{ product.product_name }} 
+					{{ product.productName }} 
 				</h5>
 				<h6 class="card-subtitle subtitle-height pt-1 pb-3">
-					Rs. {{ product.product_discounted_price }}
+					Rs. {{ product.productDiscountedPrice }}
 				</h6>
 				<p class="card-text text-height">
-					{{ product.product_actives }}
+					{{ product.productActives }}
 				</p>
 			</div>
 		</div>
@@ -79,12 +51,12 @@
 	
 </template>
 <script>
-// import IconSection from '@/common/svgs/icons.vue'
+import IconSection from '@/common/svgs/icons.vue'
 export default {
 	name:'ProductsCard',
-	// components:{
-	// 	IconSection
-	// },
+	components:{
+		IconSection
+	},
 	props:{
 		product:{
 			type:Object,
