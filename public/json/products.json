@@ -1,0 +1,98 @@
+[
+   {
+      "product_id": "sunscreen",
+      "product_name": "SPF 50+++ Sage and Honey Sunscreen",
+      "product_actives": "Nourishing benefits of honey and the calming properties of sage",
+      "product_skin_type": "All Skin Types",
+      "product_size": "ProductSize",
+      "product_tag": ["Best seller"],
+      "product_price": 499,
+      "product_discounted_price": 399,
+      "product_short_description": "It's lightweight, non-greasy formula ensures it feels comfortable on your skin while providing long-lasting defense against harmful sun exposure.",
+      "product_long_description":
+         "Discover the ultimate protection for your skin with our SPF 50+++ Sage and Honey Sunscreen. Formulated with the nourishing benefits of honey and the calming properties of sage, this sunscreen offers superior broad-spectrum protection against UVA and UVB rays. Its lightweight, non-greasy formula ensures it feels comfortable on your skin while providing long-lasting defense against harmful sun exposure.",
+      "product_images": [
+            "product-sunscreen",
+            "product-cleanser1",
+            "product-cleanser2",
+            "product-cleanser3",
+            "product-cleanser4"
+         ],
+      "product_benefits": [
+         {"icon_url": "/images/spf.png", "icon_name": "SPF 50"},
+         {"icon_url": "/images/pa-rated.png", "icon_name": "PA++++ Rated"},
+         {"icon_url": "/images/spectrum.png", "icon_name": "Broad Spectrum"},
+         {"icon_url": "/images/whitecast.png", "icon_name": "Zero Whitecast"},
+         {"icon_url": "/images/lightweight.png", "icon_name": "Lightweight"},
+         {"icon_url": "/images/matte-finish.png", "icon_name": "Matte Finish"},
+         {"icon_url": "/images/hydrating.png", "icon_name": "Hydrating"},
+         {"icon_url": "/images/all-skin-types.png", "icon_name": "All Skin Types"}
+
+         ]
+   },
+   {
+      "product_id": "cleanser",
+      "product_name": "AHA/BHA Foaming Cleanser",
+      "product_actives": "Mint and Lavender",
+      "product_skin_type": "All Skin Types",
+      "product_size": "ProductSize",
+      "product_tag": ["Best seller"],
+      "product_price": 499,
+      "product_discounted_price": 399,
+      "product_short_description": "Mint cools and invigorates the skin, while lavender calms and cleanses, creating a harmonious blend that cleanses and relaxes.",
+      "product_long_description": "Indulge your senses and invigorate your skincare routine with our luxurious Mint and Lavender Cleanser. Crafted with the finest botanical ingredients, this gentle yet effective cleanser is designed to refresh and purify your skin, leaving it feeling clean, soft, and rejuvenated.Formulated with natural ingredients and free from harsh chemicals, our Mint and Lavender Cleanser is suitable for all skin types, including sensitive skin. Whether you're starting or ending your day, this cleanser will become an essential part of your skincare ritual, leaving you with a refreshed complexion and a sense of tranquility. Experience the soothing power of nature with every cleanse.",
+      "product_images": [
+         "product-cleanser",
+         "product-cleanser1",
+         "product-cleanser2",
+         "product-cleanser3",
+         "product-cleanser4"
+      ],
+      "product_benefits": [
+         {"icon_url": "/images/cleansing.png", "icon_name": "Gentle Cleansing"},
+         {"icon_url": "/images/calms.png", "icon_name": "Soothes and Calms"},
+         {"icon_url": "/images/sensation.png", "icon_name": "Refreshing Sensation"},
+         {"icon_url": "/images/protection.png", "icon_name": "Antioxidant Protection"},
+         {"icon_url": "/images/production.png", "icon_name": "Balances Oil Production"},
+         {"icon_url": "/images/experience.png", "icon_name": "Aromatherapeutic Experience"},
+         {"icon_url": "/images/all-skin-types.png", "icon_name": "All Skin Types"}
+
+         ]
+   },
+   {
+	"product_id": "cleanser2",
+	"product_name": "AHA/BHA Foaming Cleanser",
+	"product_actives": "Mint and Lavender",
+	"product_skin_type": "All Skin Types",
+	"product_size": "ProductSize",
+	"product_tag": ["Best seller"],
+	"product_price": 499,
+	"product_discounted_price": 399,
+	"product_short_description": "Mint cools and invigorates the skin, while lavender calms and cleanses, creating a harmonious blend that cleanses and relaxes.",
+	"product_long_description": "Indulge your senses and invigorate your skincare routine with our luxurious Mint and Lavender Cleanser. Crafted with the finest botanical ingredients, this gentle yet effective cleanser is designed to refresh and purify your skin, leaving it feeling clean, soft, and rejuvenated.Formulated with natural ingredients and free from harsh chemicals, our Mint and Lavender Cleanser is suitable for all skin types, including sensitive skin. Whether you're starting or ending your day, this cleanser will become an essential part of your skincare ritual, leaving you with a refreshed complexion and a sense of tranquility. Experience the soothing power of nature with every cleanse.",
+	"product_images": [
+	   "product-cleanser",
+	   "product-cleanser1",
+	   "product-cleanser2",
+	   "product-cleanser3",
+	   "product-cleanser4"
+	],
+	"product_benefits": [
+	   {"icon_url": "/images/cleansing.png", "icon_name": "Gentle Cleansing"},
+	   {"icon_url": "/images/calms.png", "icon_name": "Soothes and Calms"},
+	   {"icon_url": "/images/sensation.png", "icon_name": "Refreshing Sensation"},
+	   {"icon_url": "/images/protection.png", "icon_name": "Antioxidant Protection"},
+	   {"icon_url": "/images/production.png", "icon_name": "Balances Oil Production"},
+	   {"icon_url": "/images/experience.png", "icon_name": "Aromatherapeutic Experience"},
+	   {"icon_url": "/images/all-skin-types.png", "icon_name": "All Skin Types"}
+
+	   ]
+ }
+]
+
+
+
+
+
+
+
