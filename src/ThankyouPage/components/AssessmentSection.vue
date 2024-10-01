@@ -26,8 +26,8 @@
 </template>
 
 <script>
-import ImageUploader from '@/Dashboard/components/ImageUploader.vue';
-import ImageUploaderService  from '@/Dashboard/service/ImageUploaderService';
+import ImageUploader from '@/ThankyouPage/components/ImageUploader.vue';
+import ImageUploaderService  from '@/ThankyouPage/service/ImageUploaderService';
 export default{
     name:"AssessmentComponent",
     components:{

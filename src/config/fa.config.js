@@ -5,6 +5,9 @@ import {
 	faStar, 
 	faCircle,
 	faCircleDot,
+	faComment,
+	faClock,
+	faCalendar,
 } from '@fortawesome/free-regular-svg-icons'
 import {
 	faAngleDown,
@@ -36,6 +39,8 @@ import {
 	faCircleNotch,
 	faGripLines,
 	faUpload,
+	faTableCellsLarge,
+	faBox,
 
 
 
@@ -76,5 +81,10 @@ library.add(
 	faMagnifyingGlass,
 	faGripLines,
 	faUpload,
-	faCircleXmark
+	faCircleXmark,
+	faTableCellsLarge,
+	faComment,
+	faClock,
+	faCalendar,
+	faBox
 );
