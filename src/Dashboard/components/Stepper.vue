@@ -58,11 +58,3 @@ export default{
         border-left: 3px solid #FDD51E;
     }
 </style>
-<!-- <div class="col-sm-3 col-12 d-flex flex-sm-row flex-column align-items-sm-center">
-    <div class="col-sm-7 d-flex flex-sm-column align-items-center">
-        <IconSection name="box" class="col-3 col-sm-12 icon-uniform"/>
-        <p class="col-9 text-sm-center m-0">Order Placed</p>
-    </div>
-    <div class="col-5 h-line d-sm-block d-none"></div>
-    <div class="col-5 v-line d-block d-sm-none ms-5"></div>
-</div> -->

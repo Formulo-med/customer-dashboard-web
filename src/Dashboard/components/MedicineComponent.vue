@@ -6,7 +6,7 @@
             <p class="m-0">500 mg</p>
         </div>
         <div class="col-3 m-0">
-            <img src="/images/paracetamol.png" class="img-fluid" alt="...">
+            <img src="/images/paracetamol.png" class="img-fluid" alt="medicine">
         </div>
     </div>
 </template>
