@@ -1,19 +1,34 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 import NavBar from "../components/NavBar.vue";
-import DashboardView from "@/Dashboard/view/DashboardView.vue";
 import FooterPage from "@/common/components/Footer.vue"
+import ThankyouPageView from "@/ThankyouPage/view/ThankyouPageView.vue";
+import DashboardView from "@/Dashboard/view/DashboardView.vue";
+
 
 const routes=[
+    { 
+        path: '/', 
+        redirect: { name: 'thankyou-page' } 
+    },
     {
-        path:"/dashboard",
-        name:"Dashboard",
+        path:"/thankyou-page",
+        name:"thankyou-page",
         components: {
-            default:DashboardView,
             navbar:NavBar,
+            default:ThankyouPageView,
             footer:FooterPage
         }
 
+    },
+    {
+        path:"/dashboard",
+        name:"dashboard",
+        components:{
+            navbar:NavBar,
+            default:DashboardView,
+            footer:FooterPage
+        }
     }
 ]
 

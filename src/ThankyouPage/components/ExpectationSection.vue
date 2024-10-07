@@ -8,9 +8,9 @@
     </div>
 </template>
 <script>
-import ProductsService from '@/Dashboard/service/ProductService';
-import ProductDetailsModel from '@/Dashboard/models/ProductDetailsModel';
-import ProductCard from '@/Dashboard/components/ProductCard.vue';
+import ProductsService from '@/ThankyouPage/service/ProductService';
+import ProductDetailsModel from '@/ThankyouPage/models/ProductDetailsModel';
+import ProductCard from '@/ThankyouPage/components/ProductCard.vue';
 export default {
     name:"ExpectationSection",
     components:{

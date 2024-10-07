@@ -19,7 +19,7 @@
     </div>
 </template>
 <script>
-import ImageHolder from '@/Dashboard/components/ImageHolder.vue';
+import ImageHolder from '@/ThankyouPage/components/ImageHolder.vue';
 export default{
     name:"ImageUploader",
     components:{

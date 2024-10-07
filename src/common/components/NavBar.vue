@@ -76,7 +76,7 @@
 									>Products</a>
 								</li>
 							</router-link>
-							<router-link to="/">
+							<router-link to="/dashboard">
 								<li class="nav-item mx-2 mx-lg-0">
 									<a
 										class="nav-link active fs-lg-6 fs-4"

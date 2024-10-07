@@ -1,5 +1,5 @@
 <template>
-	<div class="col-12 col-lg-3 col-md-4 card my-3 p-2 shadow text-start">
+	<div class="col-12 col-lg-3 col-md-5 card my-3 p-2 shadow text-start">
 		<div
 			class="card-img-top"
 			@click="showProduct"
