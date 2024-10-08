@@ -25,7 +25,6 @@ export default {
        ProductsService.getWhatsInTheBox().then(response => {
             if(response.data && response.data.length !==0 ){
                 this.products = response.data.map(product => new ProductDetailsModel(product))
-                console.log(this.products)
             }
         }).catch(err => {
             err.message =  "products fetch failed"
